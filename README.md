@@ -66,7 +66,7 @@ spring-cloud 微服务组件demo
 3、如果你想测试负载均衡，则需启动ribbon、service-B、service-B2工程，在ribbon中配置自己需要的负载均衡策略。 <br>
 4、如果你想测试路由，则需启动zuul工程，另外需保证service-B、service-B2、service-A其中一个或者多个工程处于启动状态，按照zuul工程的配置文件来进行相应的操作。 <br>
 5、如果你想查看spring boot admin监控台，则需启动service-admin、service-B工程，注意，spring boot admin工程需至少运行于JDK8环境。 <br>
-6、如果你想测试熔断功能，则需启动hystrix-ribbon与ribbon或者feign与hystrix-feign工程。 <b>
+6、如果你想测试熔断功能，则需启动hystrix-ribbon与ribbon或者feign与hystrix-feign工程。 <br>
 7、如果你想查看断路器的监控台，请启动hystrix-dashboard（单机）和turbine（集群）工程，使用方法代码注释有写。 <br>
 8、如果你想知道服务之间的调用情况，启动sleuth、service-B2、service-A。 <br>
 
